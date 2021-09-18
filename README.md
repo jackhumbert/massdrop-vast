@@ -28,8 +28,8 @@ We now need to prepare the EDID for editing - if you understand what's going on,
 
 You'll need some sort of text editor to open the edid.reg file - be sure to right-click on the file and click "Edit" instead of double-clicking - opening it should look something like this:
 
-Windows Registry Editor Version 5.00
-
+    Windows Registry Editor Version 5.00
+    
     [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\DISPLAY\ICB3500\5&44f2e74&0&UID4355\Device Parameters]
     "EDID"=hex:00,ff,ff,ff,ff,ff,ff,00,24,62,00,35,00,00,00,00,28,1b,01,04,b5,52,\
       23,78,3f,76,90,a8,54,4d,9f,25,0e,50,54,bf,ef,80,d1,c0,81,c0,81,00,81,80,a9,\
